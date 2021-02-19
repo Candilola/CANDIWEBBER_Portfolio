@@ -106,7 +106,7 @@ body {
     background-color: var(--secondary);
     font-family: var(--font-body);
     color:white;
-    padding: 1% 8%;
+    padding: 10px 22px 10px 22px;
     text-align: center;
     border: none;
     border-radius: 15px;
@@ -159,34 +159,34 @@ footer .logo {
 
 .logo h3 {
     font-family: var(--font-display);
-    font-size: 22pt;
+    font-size: 2rem;
     /* font-kerning: -70; */
     font-weight: 800;
 }
 .logo-mobileC {
     color: var(--secondary);
     font-family: var(--font-display);
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 800;
     display: none;
 }
 .logo-mobileW {
     color: var(--primary);
     font-family: var(--font-display);
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 800;
     display: none;
 }
 .toplogoC {
     color: var(--secondary);
     font-family: var(--font-display);
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 800;
 }
 .toplogoW {
     color: var(--primary);
     font-family: var(--font-display);
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -217,8 +217,12 @@ nav .toplogoW {
     }    
 
 .topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     overflow: hidden;
     background-color: white;
+    width: 100vw;
     /* position: relative; */
   }
 .topnav a {
@@ -245,12 +249,15 @@ nav .toplogoW {
 
 .hero-section{
     background-color: var(--primary);
-    background-image: url("../images/Group\ 13.png");
-    background-position: right;
+    background-image: url("../images/Group\ 41.png");
+    
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 100vw;
     min-height: 500px;
     max-height: 97vh;
+}
+.leadpic{
+    display: none;
 }
 .header-title {
     grid-area: 2 / 1 / span 1 / span 6;
@@ -270,14 +277,15 @@ nav .toplogoW {
     padding: 0% 0% 5% 0;
 }
 .header-button{
-    grid-area: 5 / 1 / span 1 / span 2;
-    padding: 1% 4% 1% 4%;
+    grid-area: 5 / 1 / span 1 / span 3;
+    /* padding: 1% 4% 1% 4%; */
     
 }
 
 .section-head{
     padding: 30px 10% 12px 10%;
     color: var(--secondary);
+    
 }
 
 
@@ -285,6 +293,7 @@ nav .toplogoW {
 .work{
     margin-left: 10%;
     margin-right: 10%;
+   
 }
 .cs-box1 {
     padding: 1.5rem;
@@ -468,29 +477,33 @@ footer .link {
     }   
 
     .hero-section{
-        background-image: none;
+        display: grid;
+        grid-area: 1 / 1 / span 5 / span 4;
     }
 
+
     .header-title{
-        grid-area: 1 / 1 / span 1 / span 4;
+        grid-area: 2 / 1 / span 1 / span 4;
         padding: 10% 0% 0 0;
     }
     .header-subhead{
-        grid-area: 2 / 1 / span 1 / span 4;
+        grid-area: 3 / 1 / span 1 / span 4;
         padding: 0% 0% 3% 0;
     }
     .header-standfirst{
-        grid-area: 3 / 1 / span 1 / span 4;
+        grid-area: 4 / 1 / span 1 / span 4;
         padding: 0% 0% 5% 0;
     }
     .header-button{
-        grid-area: 4 / 1 / span 1 / span 3;
+        grid-area: 5 / 1 / span 1 / span 3;
         padding: 3px 8px 3px 8px;
         margin-right: 10%;
         margin-bottom: 20px;
     }
     
-   
+   .flexbox{
+       height: 70px;
+   }
     #burger-menu {
     display: flex;
     align-items: center;
