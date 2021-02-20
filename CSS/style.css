@@ -212,10 +212,13 @@ nav .toplogoW {
 /* .topnav a.icon {
     display: none;
 } */
-#burger-menu {
+.burger {
     display: none;
     }    
 
+.closer {
+    display: none;
+    }  
 .topnav {
     display: flex;
     flex-direction: row;
@@ -327,19 +330,19 @@ nav .toplogoW {
 .CS-pic1 {
     grid-area: 1 / 1 / span 6 / span 6;
     /* padding: 0% 0% 5% 0; */
-    background: url("../images/StoryDogs.png") no-repeat;
+    background: url("../images/StoryDogs.png") no-repeat center;
     background-size: contain;
 }
 .CS-pic2 {
     grid-area: 1 / 7 / span 6 / span 6;
     /* padding: 0% 0% 5% 0; */
-    background: url("../images/Tinder.png") no-repeat;
+    background: url("../images/Tinder.png") no-repeat center;
     background-size: contain;
 }
 .CS-pic3 {
     grid-area: 1 / 1 / span 6 / span 6;
     /* padding: 0% 0% 5% 0; */
-    background: url("../images/CER.png") no-repeat;
+    background: url("../images/CER.png") no-repeat center;
     background-size: contain;
 }
 .CS-right {
@@ -504,11 +507,20 @@ footer .link {
    .flexbox{
        height: 70px;
    }
-    #burger-menu {
+   .burger {
+    display: inherit;
+}
+.closer {
+    display: inherit;
+}
+.links {
+    display: none;
+}
+    /* #burger-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    }    
+    }     */
 
     .toplogoC {
     display: none;
