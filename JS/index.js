@@ -2,13 +2,16 @@
  function myFunction() {
   var mobileLinks = document.getElementById("mobLinks")
   var burger = document.getElementById("burger")
+var topnav = document.getElementById("flexNav")
 
   if (mobileLinks.style.display == "none") {
       mobileLinks.style.display = "block"
-      burger.src = "./icon_x.png"
+      burger.src = "./images/icon_x.png"
+      topnav.style.height = "300px"
   } else {
       mobileLinks.style.display = "none"
-      burger.src = "./icon_burger.png"
+      burger.src = "./images/icon_ burger.png"
+      topnav.style.height = "70px"
   }
 }
 

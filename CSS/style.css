@@ -555,13 +555,29 @@ footer .link {
     .logo-mobile{
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
     }
   
-.button-nav{
-        display: none;
+.button-navM{
+    /* margin-top: 2rem; */
+    padding: 1rem;
     }  
+.button-nav{
+     display: none;
+} 
+.mobile-nav{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background-color: white;
+    /* margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom: 30px; */
+}     
     
 .work{
      margin-left: 3%;
