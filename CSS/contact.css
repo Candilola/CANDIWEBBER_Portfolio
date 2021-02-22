@@ -100,16 +100,18 @@ body {
     font-family: var(--font-body);
     /* color: white; */
 }
+
 .primary-button {
     font-size: 20px;
     font-weight: 600;
     background-color: var(--secondary);
     font-family: var(--font-body);
     color:white;
-    padding: 10% 2%;
+    padding: 10px 22px 10px 22px;
     text-align: center;
     border: none;
     border-radius: 15px;
+    /* max-height: 2rem; */
     
     
 }
@@ -162,37 +164,30 @@ footer .logo {
     /* font-kerning: -70; */
     font-weight: 800;
 }
-.logo-mobileC {
+.logo-mobile {
     color: var(--secondary);
     font-family: var(--font-display);
     font-size: 30px;
     font-weight: 800;
     display: none;
-}
-.logo-mobileW {
-    color: var(--primary);
-    font-family: var(--font-display);
-    font-size: 30px;
-    font-weight: 800;
-    display: none;
-}
-.toplogoC {
-    color: var(--secondary);
-    font-family: var(--font-display);
-    font-size: 30px;
-    font-weight: 800;
-}
-.toplogoW {
-    color: var(--primary);
-    font-family: var(--font-display);
-    font-size: 30px;
-    font-weight: 800;
 }
 
-nav .toplogoW {
-    align-self: flex-start;
+
+.toplogo {
+    color: var(--secondary);
+    font-family: var(--font-display);
+    font-size: 30px;
+    font-weight: 800;
+}
+.logovariant{
+    color: var(--primary);
     
 }
+
+/* nav .toplogoW {
+    align-self: flex-start;
+    
+} */
 
 .button-container {
     display: flex;
@@ -201,23 +196,40 @@ nav .toplogoW {
 }
 
 .button-nav {
+    color: var(--secondary);
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 40px;
     transition: 0.24s;
+    margin-right: 3rem;
 }
-
-/* .topnav a.icon {
-    display: none;
-} */
-#burger-menu {
+.active{
+    color: #F8D758 !important;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    transition: 0.24s;
+    margin-right: 3rem;
+}
+.burger {
     display: none;
     }    
 
+.closer {
+    display: none;
+} 
+
 .topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     overflow: hidden;
     background-color: white;
+    width: 100vw;
     /* position: relative; */
   }
 .topnav a {
@@ -348,24 +360,17 @@ footer .link {
         justify-content: center;
         }    
     
-        .toplogoC {
+        .toplogo {
         display: none;
         }
-        .toplogoW {
-            display: none;
-        }
-        .logo-mobileC{
+        
+        .logo-mobile{
         padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         }
-        .logo-mobileW{
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            }
+        
     .button-nav{
             display: none;
         }  

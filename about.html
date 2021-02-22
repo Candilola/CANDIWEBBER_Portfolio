@@ -8,6 +8,7 @@
     <link href="CSS/about.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Playfair+Display&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap" rel="stylesheet">    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX0LTW5QCW"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX0LTW5QCW"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -19,29 +20,41 @@
 </head>
 <body>
 
+    <a href="#" class="back-to-top">^</a>
     <!-- Nav bar -->
     <nav class="flexbox">
         <div class="topnav">
         <div class="logo">
-            <h3 class="toplogoC">CANDI</h3>
-            <h3 class="logo-mobileC">C</h3>
-            <h3 class="toplogoW">WEBBER </h3>
-            <h3 class="logo-mobileW">W</h3>
+            <!-- <a href="#home" class="active h3 toplogoC">CANDI</a> -->
+            <h3 class="toplogo">CANDI<span class="logovariant">WEBBER</span></h3>
+            <h3 class="logo-mobile">C<span class="logovariant">W</span></h3>
         </div>
 
    
         <div id="myLinks" class="button-container">
-            <div a href="index.html" class="button-nav">HOME</div>
-            <div a href="about.html" class="button-nav">ABOUT</div>
-            <div a href="#" class="button-nav">RESUME</div>
-        
+            <a href="index.html" class="button-nav">HOME</a>
+            <a href="about.html" class="active">ABOUT</a>
+            <a href="contact.html" class="button-nav">CONTACT</a>
+            <a href="#" class="button-nav">RESUME</a>
+            
+            <div class="burger">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars" style="font-size:1.7rem" id="burger-menu"></i>    
-    </a>
+                <img id="burger" src="./images/icon_ burger.png">    </a>
+            <div class="closer">
+                <a href="#;" class="icon" onclick=myFunction()><img src="./images/icon_x.png"></a>
+                </div>
+</div>
+</div>
+<div id="mobLinks" class="mobile-nav" style="display: none;">
+    <div a href="index.html" class="button-nav">HOME</div>
+    <div a href="about.html" class="button-nav">ABOUT</div>
+    <div a href="contact.html" class="button-nav">CONTACT</div>
+    <div a href="#" class="button-nav">RESUME</div>
 </div>
         <!-- <i class="fa fa-bars" style="font-size:24px" id="burger-menu"></i>     -->
-</div>
+
 </nav>
+
 
 <!-- main section -->
 <section>  

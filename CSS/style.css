@@ -100,6 +100,23 @@ body {
     font-family: var(--font-body);
     /* color: white; */
 }
+.back-to-top{
+    display: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    background-color: var(--secondary);
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    }
+
 .primary-button {
     font-size: 20px;
     font-weight: 600;
@@ -163,37 +180,29 @@ footer .logo {
     /* font-kerning: -70; */
     font-weight: 800;
 }
-.logo-mobileC {
+.logo-mobile {
     color: var(--secondary);
     font-family: var(--font-display);
     font-size: 2rem;
     font-weight: 800;
     display: none;
 }
-.logo-mobileW {
-    color: var(--primary);
-    font-family: var(--font-display);
-    font-size: 2rem;
-    font-weight: 800;
-    display: none;
-}
-.toplogoC {
+
+.toplogo {
     color: var(--secondary);
     font-family: var(--font-display);
     font-size: 3rem;
     font-weight: 800;
 }
-.toplogoW {
+.logovariant {
     color: var(--primary);
-    font-family: var(--font-display);
-    font-size: 2rem;
-    font-weight: 800;
-}
-
-nav .toplogoW {
-    align-self: flex-start;
     
 }
+
+/* nav .toplogoW {
+    align-self: flex-start;
+    
+} */
 
 .button-container {
     display: flex;
@@ -202,11 +211,24 @@ nav .toplogoW {
 }
 
 .button-nav {
+    color: var(--secondary);
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 40px;
     transition: 0.24s;
+    margin-right: 3rem;
+}
+.active{
+    color: var(--primary) !important;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    transition: 0.24s;
+    margin-right: 3rem;
 }
 
 /* .topnav a.icon {
@@ -253,7 +275,6 @@ nav .toplogoW {
 .hero-section{
     background-color: var(--primary);
     background-image: url("../images/Group\ 41.png");
-    
     background-repeat: no-repeat;
     background-size: 100vw;
     min-height: 500px;
@@ -516,30 +537,19 @@ footer .link {
 .links {
     display: none;
 }
-    /* #burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }     */
+   
 
-    .toplogoC {
+    .toplogo {
     display: none;
     }
-    .toplogoW {
-        display: none;
-    }
-    .logo-mobileC{
+  
+    .logo-mobile{
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     }
-    .logo-mobileW{
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        }
+  
 .button-nav{
         display: none;
     }  
