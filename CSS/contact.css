@@ -115,6 +115,10 @@ body {
     
     
 }
+.primary-button:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px #D9D9D9;
+}
 .secondary-button {
     font-size: 20px;
     font-weight: 600;
@@ -127,6 +131,10 @@ body {
     border-radius: 15px;
     /* align-items: center; */
     
+}
+.secondary-button:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px #D9D9D9;
 }
 img {
     width: 100%;
@@ -205,6 +213,7 @@ footer .logo {
     transition: 0.24s;
     margin-right: 3rem;
 }
+
 .active{
     color: #F8D758 !important;
     font-weight: bolder;
@@ -255,14 +264,14 @@ footer .logo {
 }
 
 .hero-section{
-    background-color: var(--primary);
-    /* background-image: url("../images/Group\ 13.png"); */
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 50vw;
-    min-height: 350px;
-    max-height: 97vh;
-}
+        background-color: var(--primary);
+        background-image: url("../images/Group\ 41.png");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        min-height: 500px;
+        max-height: 97vh;
+    }
+
 .header-title {
     grid-area: 1 / 1 / span 1 / span 12;
     padding: 5rem 0% 0% 0;

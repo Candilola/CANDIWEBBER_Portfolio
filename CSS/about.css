@@ -127,6 +127,10 @@ body {
     
     
 }
+.primary-button:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px #D9D9D9;
+}
 .secondary-button {
     font-size: 20px;
     font-weight: 600;
@@ -139,6 +143,10 @@ body {
     border-radius: 15px;
     /* align-items: center; */
     
+}
+.secondary-button:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px #D9D9D9;
 }
 img {
     width: 100%;
