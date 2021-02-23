@@ -103,7 +103,7 @@ body {
     position: fixed;
     bottom: 60px;
     right: 60px;
-    background-color: var(--secondary);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 50px;
     height: 50px;
     border-radius: 70px;
@@ -549,33 +549,54 @@ footer .link {
         margin: 4% 8%;
     }
 
-    nav {
+    /* nav {
         height: 72px;
+    } */
+    .flexbox{
+        height: 70px;
     }
-    
     .burger {
         display: inherit;
     }
     .closer {
         display: inherit;
     }  
+    .links {
+        display: none;
+    }
 
     .toplogo {
     display: none;
     }
   
     .logo-mobile{
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        padding: 0;
+        display: flex;
+        position: absolute;
+        top: 17px;
+        left: 20px;
     }
-  
-.button-nav{
+    .button-nav{
         display: none;
-    }  
+   } 
+    .button-navM{
+        display: block;
+            padding: 1rem;
+            text-align: center;
+            }   
     
-
+    .mobile-nav{
+        position: absolute;
+        top: 70px;
+        right: 30px;
+        background-color: white;
+        /* margin-top: 100px;
+        margin-right: 30px;
+        margin-bottom: 30px; */
+    }   
+    .active{
+        display: none;
+    }   
 
 }
 

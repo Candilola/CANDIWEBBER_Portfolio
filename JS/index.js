@@ -7,7 +7,7 @@ var topnav = document.getElementById("flexNav")
   if (mobileLinks.style.display == "none") {
       mobileLinks.style.display = "block"
       burger.src = "./images/icon_x.png"
-      topnav.style.height = "300px"
+      topnav.style.height = "240px"
   } else {
       mobileLinks.style.display = "none"
       burger.src = "./images/icon_ burger.png"

@@ -117,7 +117,7 @@ body {
 }
 .primary-button:hover {
     transform: scale(1.05);
-    box-shadow: 2px 2px 4px #D9D9D9;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
 }
 .secondary-button {
     font-size: 20px;
@@ -134,7 +134,7 @@ body {
 }
 .secondary-button:hover {
     transform: scale(1.05);
-    box-shadow: 2px 2px 4px #D9D9D9;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
 }
 img {
     width: 100%;
@@ -363,26 +363,55 @@ footer .link {
 @media only screen and (max-width: 720px) and (min-device-width:320px) {
 
 
-    #burger-menu {
+    /* #burger-menu {
         display: flex;
         align-items: center;
         justify-content: center;
-        }    
-    
+        }     */
+    .flexbox{
+            height: 70px;
+        }
+    .burger {
+         display: inherit;
+     }
+     .closer {
+         display: inherit;
+     }
+     .links {
+         display: none;
+     }
         .toplogo {
         display: none;
         }
         
-        .logo-mobile{
+    .logo-mobile{
         padding: 0;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-        
-    .button-nav{
-            display: none;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+    }
+    .button-navM{
+        display: block;
+        padding: 1rem;
+        text-align: center;
         }  
+
+    .button-nav{
+        display: none;
+    } 
+    .mobile-nav{
+        position: absolute;
+        top: 70px;
+        right: 30px;
+        background-color: white;
+        /* margin-top: 100px;
+        margin-right: 30px;
+        margin-bottom: 30px; */
+    } 
+    .active{
+        display: none;
+    } 
         
     .main-grid {
         grid-template-columns: repeat(4,1fr);
