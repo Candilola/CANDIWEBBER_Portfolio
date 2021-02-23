@@ -453,7 +453,7 @@ footer .logo {
 footer {
     width: 100%;
     height: auto;
-    position: bottom;
+    /* position: fixed; */
     bottom: 0;
     background: black;
     padding-top: 20px;
