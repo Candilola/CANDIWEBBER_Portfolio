@@ -123,6 +123,7 @@ body {
     text-align: center;
     border: none;
     border-radius: 15px;
+    text-decoration: none;
     /* max-height: 2rem; */
     
     
@@ -285,8 +286,8 @@ footer .logo {
 
 
 .header-button{
-    grid-area: 5 / 1 / span 1 / span 2;
-    padding: 1% 4% 1% 4%;
+    grid-area: 5 / 1 / span 1 / span 3;
+    padding: 3% 8% 3% 8%;
     
 }
 
