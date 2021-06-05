@@ -361,14 +361,14 @@ footer .logo {
 .CS-pic1 {
     grid-area: 1 / 1 / span 6 / span 6;
     /* padding: 0% 0% 5% 0; */
-    background: url("../images/StoryDogs.png") no-repeat center;
+    background: url("../images/ASA\ thumbnail.png") no-repeat center;
     background-size: contain;
     
 }
 .CS-pic2 {
     grid-area: 1 / 7 / span 6 / span 6;
     /* padding: 0% 0% 5% 0; */
-    background: url("../images/Tinder.png") no-repeat center;
+    background: url("../images/StoryDogs.png") no-repeat center;
     background-size: contain;
 }
 .CS-pic3 {
