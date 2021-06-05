@@ -133,8 +133,10 @@ body {
     
 }
 .primary-button:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
 }
 .secondary-button {
     font-size: 20px;
@@ -150,8 +152,10 @@ body {
     
 }
 .secondary-button:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
 }
 img {
     width: 100%;
@@ -353,14 +357,13 @@ footer .logo {
 
 }
 
-.CS-pic1:hover {
-    transform: scale(1.05);
-}
-.CS-pic2:hover {
-    transform: scale(1.05);
-}
-.CS-pic3:hover {
-    transform: scale(1.05);
+.CS-pic1:hover,
+.CS-pic2:hover,
+.CS-pic3:hover 
+ {
+    transform: scale(1.03);
+    transition: 0.2s;
+    transition-timing-function: ease-in;
 }
 
 .CS-pic1 {

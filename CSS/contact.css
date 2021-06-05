@@ -117,8 +117,10 @@ body {
     
 }
 .primary-button:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
 }
 .secondary-button {
     font-size: 20px;
@@ -134,8 +136,10 @@ body {
     
 }
 .secondary-button:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.4);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
 }
 img {
     width: 100%;
@@ -257,27 +261,28 @@ footer .logo {
     top: 0;
   }  
 /* body */
-.main-grid {
+/* .main-grid {
     display: grid;
     grid-template-columns: repeat(12, minmax(10px, 1fr));
     grid-template-rows: auto;
     padding: 5% 10%;
-}
+} */
 
 .hero-section{
         background-color: var(--primary);
         background-image: url("../images/Group\ 41.png");
         background-repeat: no-repeat;
-        background-size: 100vw;
-        min-height: 500px;
+        background-size: 70vw;
+        background-position: right;
+        min-height: 600px;
         max-height: 97vh;
     }
 
 .header-title {
-    grid-area: 1 / 1 / span 1 / span 6;
-    padding: 7rem 0% 0% 0;
+    /* grid-area: 1 / 1 / span 1 / span 12; */
+    padding: 7rem 2rem 1rem 2rem;
     color: var(--secondary);
-    text-align: left;
+    text-align: center;
 }
 /* .header-image{
     grid-area: 1 / 7 / span 6 / span 12;
@@ -289,16 +294,21 @@ footer .logo {
     padding: 0% 0% 0% 0;
 } */
 .header-standfirst{
-    grid-area: 2 / 1 / span 1 / span 6;
-    /* padding: 0% 0% 0% 0; */
-    text-align: left;
+    /* grid-area: 2 / 4 / span 1 / span 6; */
+    padding: 2rem 2rem;
+    text-align: center;
     color: var(--secondary);
     font-weight: 500;
+    margin: 0 30% 0 30%;
 }
 .header-button{
-    grid-area: 3 / 1 / span 1 / span 2;
+    /* grid-area: 3 / 6 / span 1 / span 2; */
     padding: 3% 4% 1% 4%;
     max-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
 
     
 }
@@ -322,6 +332,7 @@ footer {
     width: 100%;
     background: black;
     padding-top: 20px;
+    position: static;
     
 }
 .footlogoC {
@@ -329,6 +340,7 @@ footer {
     font-family: var(--font-display);
     font-size: 30px;
     font-weight: 800;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 .footlogoW {
@@ -336,13 +348,14 @@ footer {
     font-family: var(--font-display);
     font-size: 30px;
     font-weight: 800;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
 footer .links {
     display: flex;
     justify-content: space-evenly;
-    padding: 24px 0px;
+    padding: 24px 0px 48px 0;
 }
 
 footer .link {

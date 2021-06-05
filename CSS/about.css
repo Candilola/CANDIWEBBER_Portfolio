@@ -129,8 +129,10 @@ body {
     
 }
 .primary-button:hover {
-    transform: scale(1.05);
     box-shadow: 2px 2px 4px #D9D9D9;
+    transform: scale(1.03);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
 }
 .secondary-button {
     font-size: 20px;
@@ -146,8 +148,10 @@ body {
     
 }
 .secondary-button:hover {
-    transform: scale(1.05);
     box-shadow: 2px 2px 4px #D9D9D9;
+    transform: scale(1.03);
+    transition: 0.1s;
+    transition-timing-function: ease-in;
 }
 img {
     width: 100%;
