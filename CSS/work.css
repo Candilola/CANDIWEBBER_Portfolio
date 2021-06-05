@@ -215,6 +215,7 @@ footer .logo {
 
 .button-container {
     display: flex;
+    background-color: white;
     flex-grow: 1;
     justify-content: flex-end;
 }
@@ -228,6 +229,7 @@ footer .logo {
     padding: 0px 40px;
     transition: 0.24s;
     margin-right: 3rem;
+    background-color: white;
 }
 .active{
     color: var(--primary) !important;
@@ -257,7 +259,7 @@ footer .logo {
     overflow: hidden;
     background-color: white;
     width: 100vw;
-    /* position: relative; */
+    position: sticky;
   }
 .topnav a {
     color: var(--secondary);
@@ -281,7 +283,7 @@ footer .logo {
     padding: 5% 10%;
 }
 
-.hero-section{
+/* .hero-section{
     background-color: var(--primary);
     background-image: url("../images/Group\ 41.png");
     background-repeat: no-repeat;
@@ -314,11 +316,13 @@ footer .logo {
     text-decoration: none;
     /* padding: 1% 4% 1% 4%; */
     
-}
+} 
 
 .section-head{
+    margin-top: 3rem;
     padding: 30px 10% 12px 10%;
-    color: var(--secondary);
+    color: var(--primary);
+    font-size: 4rem;
     
 }
 
@@ -327,6 +331,7 @@ footer .logo {
 .work{
     margin-left: 10%;
     margin-right: 10%;
+    
    
 }
 .cs-box1 {
@@ -516,7 +521,7 @@ footer .link {
 
     }
 
-    .hero-section{
+    /* .hero-section{
         display: grid;
         grid-area: 1 / 1 / span 5 / span 4;
     }
@@ -539,7 +544,7 @@ footer .link {
         padding: 3px 8px 3px 8px;
         margin-right: 10%;
         margin-bottom: 20px;
-    }
+    } */
     
    .flexbox{
        height: 70px;
