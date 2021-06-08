@@ -714,11 +714,16 @@ footer .link {
         width: 100vw;
     }
     .column-pic,
-    .persona,
-    .breakout2,
-    .breakout-image2{
+    .breakout2{
         grid-area: 1 / 1 / span 1 / span 12;
         padding: 2% 0% 0 0;
     }
-    
+    .persona,
+    .breakout-image2{
+        grid-area: 2 / 1 / span 1 / span 12;
+        padding: 2% 0% 0 0;
+    }
+    .graphic-small{
+        max-width: 100vw;
+    }
 }
