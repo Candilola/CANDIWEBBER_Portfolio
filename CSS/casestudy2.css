@@ -731,10 +731,8 @@ footer .link {
         padding: 2% 0% 0 0;
     }
     .graphic-small{
-        max-width: 96vw !important;
-        padding: 1rem 0 !important;
-        margin-left: 0;
-        align-items: center;
-        justify-content: left;
+        padding: 2rem 5rem 2rem 5rem;
+    margin: 2rem 0;
+    max-width: 50vw;  
     }
 }
