@@ -286,7 +286,8 @@ footer .logo {
 }
 
 .hero-section{
-    background-color: #F3F4F6;
+    /* background-color: white; */
+    
     margin-bottom: 2rem;
 
     /* background-image: url("../images/ASA header.png");
@@ -578,7 +579,6 @@ footer .link {
      /* Header section */
      .hero-section{
         display: grid;
-        background-color: #F3F4F6;
         grid-area: 1 / 1 / span 12 / span 12;
     }
 
