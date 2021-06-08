@@ -312,6 +312,9 @@ footer .logo {
 
     
 }
+.email{
+    text-align: center;
+}
 .emailLink{
     color: black;
     grid-area: 3 / 6 / span 1 / span 2;
