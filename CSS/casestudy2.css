@@ -734,6 +734,7 @@ footer .link {
         max-width: 96vw !important;
         padding: 1rem 0 !important;
         margin-left: 0;
-
+        align-items: center;
+        justify-content: left;
     }
 }
